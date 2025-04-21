@@ -11,6 +11,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			components: {
+				PageSidebar: './src/components/PageSidebar.astro',
 				ThemeProvider: './src/components/ThemeProvider.astro',
 				ThemeSelect: './src/components/ThemeSelect.astro',
 			},
