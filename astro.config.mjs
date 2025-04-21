@@ -7,7 +7,7 @@ import starlightThemeFlexoki from 'starlight-theme-flexoki';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://paraeternun.github.io',
-	base: 'website',
+	base: 'blog',
 	integrations: [
 		starlight({
 			components: {
