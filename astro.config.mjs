@@ -37,6 +37,14 @@ export default defineConfig({
 					label: '1. História',
 					autogenerate: { directory: 'history' },
 				},
+				{
+					label: '2. Divindades',
+					autogenerate: { directory: 'deities' },
+				},
+				{
+					label: '3. Localizações',
+					autogenerate: { directory: 'locations' },
+				},
 			],
 			plugins: [starlightThemeFlexoki({
 				accentColor: "red",
