@@ -45,6 +45,10 @@ export default defineConfig({
 					label: '3. Localizações',
 					autogenerate: { directory: 'locations' },
 				},
+				{
+					label: '4. Criando seu Personagem',
+					autogenerate: { directory: 'character' },
+				},
 			],
 			plugins: [starlightThemeFlexoki({
 				accentColor: "red",
